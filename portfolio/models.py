@@ -5,3 +5,6 @@ from django.db import models
 class indexPage(models.Model):
     title = models.CharField(max_length=100)
     content = models.TextField()
+class Portfolio(models.Model):
+    name = models.CharField(max_length=100)
+    description = models.TextField()
